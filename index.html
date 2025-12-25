@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Gemstone Pen | 運気を運ぶ、輝きの筆記具</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand-main: #914a68;
+            --brand-light: #fdf5f8;
+            --brand-accent: #f5e6eb;
+        }
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Noto Serif JP', serif;
+        }
+        .bg-brand-main {
+            background-color: var(--brand-main);
+        }
+        .text-brand-main {
+            color: var(--brand-main);
+        }
+        .border-brand-main {
+            border-color: var(--brand-main);
+        }
+        .bg-brand-gradient {
+            background: linear-gradient(135deg, #914a68 0%, #d18ba7 50%, #914a68 100%);
+        }
+        .hero-overlay {
+            background: rgba(145, 74, 104, 0.3);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-[#fdfbfa] text-stone-800">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-[#f5e6eb]">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-widest text-brand-main serif">GEM LUCK</div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#concept" class="hover:text-brand-main transition">Concept</a>
+                <a href="#series-lady" class="hover:text-brand-main transition">For Lady</a>
+                <a href="#series-men" class="hover:text-brand-main transition">For Unisex</a>
+                <a href="#contact" class="bg-brand-main text-white px-5 py-2 rounded-full hover:opacity-90 transition shadow-md shadow-pink-100">ご購入はこちら</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1583485088034-7160b52ad571?auto=format&fit=crop&q=80&w=2000" alt="高級な筆記用具のイメージ" class="w-full h-full object-cover">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+        <div class="relative z-10 text-center text-white px-6">
+            <p class="text-lg md:text-xl mb-4 tracking-[0.2em] font-light">一筆ごとに、運命を書き換える。</p>
+            <h1 class="text-4xl md:text-6xl font-bold mb-8 leading-tight serif">Fortune Gemstone Pen</h1>
+            <p class="max-w-2xl mx-auto text-sm md:text-base leading-relaxed font-light opacity-95">
+                厳選された天然石を封じ込めた、お守りのようなボールペン。<br>
+                あなたの手元に、光と幸運を。
+            </p>
+            <div class="mt-12">
+                <a href="#concept" class="inline-block border border-white px-8 py-3 hover:bg-white hover:text-brand-main transition duration-300">世界観を観る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concept -->
+    <section id="concept" class="py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <span class="text-brand-main tracking-widest text-sm mb-4 block font-bold">CONCEPT</span>
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 serif">書くことは、祈ること。</h2>
+            <div class="max-w-3xl mx-auto space-y-6 text-stone-600 leading-loose">
+                <p>
+                    古来より、天然石には地球のエネルギーが宿ると信じられてきました。<br>
+                    仕事のメモ、大切な人への手紙、自分への誓い。
+                </p>
+                <p>
+                    日々の中で「書く」という行為に天然石の輝きを添えることで、<br>
+                    あなたの思考はよりクリアになり、ポジティブな運気を引き寄せます。
+                </p>
+                <p>
+                    ただの筆記具ではない。それは、あなたの未来を記すための聖域です。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Series 1: Lady / Love -->
+    <section id="series-lady" class="py-24 bg-[#fdf5f8]">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&q=80&w=800" alt="ダイヤモンドトップのペン" class="rounded-2xl shadow-2xl">
+                        <div class="absolute -bottom-6 -right-6 bg-white p-6 shadow-xl rounded-lg hidden md:block border-l-4 border-brand-main">
+                            <p class="text-brand-main font-bold text-xl serif">Love & Beauty</p>
+                            <p class="text-xs text-stone-500">恋愛運・対人運の向上</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <span class="text-brand-main tracking-widest text-sm mb-2 block font-bold">FOR LADIES</span>
+                    <h2 class="text-3xl font-bold mb-6 serif">Eternal Diamond Top</h2>
+                    <p class="text-stone-600 mb-8 leading-relaxed">
+                        ペン先を動かすたび、トップに配された大きなダイヤモンド型のクリスタルパーツが光を反射し、あなたの手元を華やかに演出します。<br><br>
+                        中には「愛の石」と呼ばれるローズクォーツや、浄化を助けるアメジストを贅沢に。素敵な出会いを引き寄せたい方や、今のパートナーとの絆を深めたい女性に。
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center space-x-3 text-stone-700">
+                            <span class="w-2 h-2 bg-brand-main rounded-full"></span>
+                            <span>恋愛成就・自己肯定感の向上</span>
+                        </li>
+                        <li class="flex items-center space-x-3 text-stone-700">
+                            <span class="w-2 h-2 bg-brand-main rounded-full"></span>
+                            <span>エレガントなダイヤモンドカットデザイン</span>
+                        </li>
+                        <li class="flex items-center space-x-3 text-stone-700">
+                            <span class="w-2 h-2 bg-brand-main rounded-full"></span>
+                            <span>女性らしいシャンパンピンクのボディ</span>
+                        </li>
+                    </ul>
+                    <button class="w-full md:w-auto bg-brand-main text-white px-10 py-4 rounded-full hover:opacity-90 transition shadow-lg shadow-pink-200">詳しく見る</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Series 2: Chakra / Unisex -->
+    <section id="series-men" class="py-24 bg-stone-900 text-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                <div class="md:w-1/2">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&q=80&w=800" alt="チャクラカラーの天然石ペン" class="rounded-2xl shadow-2xl opacity-90">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-2xl"></div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <span class="text-brand-main tracking-widest text-sm mb-2 block font-bold">UNISEX & BUSINESS</span>
+                    <h2 class="text-3xl font-bold mb-6 serif">7-Color Chakra Balance</h2>
+                    <p class="text-stone-400 mb-8 leading-relaxed">
+                        ビジネスの現場でも違和感なく使える、シックなブラックボディ。<br>
+                        透明なバレルの中に閉じ込められたのは、身体のエネルギーバランスを整える「7つのチャクラ」に対応する天然石です。<br><br>
+                        直感力を高め、勝負運を引き寄せたい男性や、多忙な日々の中で自分を整えたい方に。
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="bg-stone-800 p-4 rounded-lg border-l-2 border-brand-main">
+                            <p class="text-brand-main font-bold mb-1">仕事・金運</p>
+                            <p class="text-xs text-stone-500 font-light">タイガーアイ・シトリン</p>
+                        </div>
+                        <div class="bg-stone-800 p-4 rounded-lg border-l-2 border-brand-main">
+                            <p class="text-brand-main font-bold mb-1">直感・集中</p>
+                            <p class="text-xs text-stone-500 font-light">ラピスラズリ・水晶</p>
+                        </div>
+                    </div>
+                    <button class="w-full md:w-auto border border-brand-main text-brand-main px-10 py-4 rounded-full hover:bg-brand-main hover:text-white transition">詳しく見る</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-16 serif">選ばれる理由</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="card-hover p-8 rounded-2xl bg-[#fdf5f8]">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-brand-main" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-4 serif text-brand-main">本物の天然石を使用</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">合成石ではない、自然界が長い年月をかけて育んだ本物のパワーを込めています。</p>
+                </div>
+                <div class="card-hover p-8 rounded-2xl bg-[#fdf5f8]">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-brand-main" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-4 serif text-brand-main">滑らかな書き心地</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">見た目だけでなく筆記具としての品質も追求。引っ掛かりのない滑らかなインクを採用。</p>
+                </div>
+                <div class="card-hover p-8 rounded-2xl bg-[#fdf5f8]">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-brand-main" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-4 serif text-brand-main">ギフトボックス無料</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">自分へのご褒美はもちろん、大切な門出を祝うギフトとしても。専用箱でお届けします。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-24 bg-brand-gradient">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 serif text-white">あなたの日常に、運気の輝きを。</h2>
+            <p class="mb-12 text-white/90 font-medium">数量限定販売のため、お早めにお求めください。</p>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="#" class="bg-white text-brand-main px-12 py-5 rounded-full text-lg font-bold hover:bg-stone-50 transition shadow-2xl">Lady's Model を購入</a>
+                <a href="#" class="bg-stone-900 text-white px-12 py-5 rounded-full text-lg font-bold hover:bg-stone-800 transition shadow-2xl">Unisex Model を購入</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t border-[#f5e6eb]">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-stone-500 text-sm">
+            <div class="mb-6 md:mb-0 serif text-xl font-bold text-brand-main">GEM LUCK</div>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:text-brand-main">特定商取引法に基づく表記</a>
+                <a href="#" class="hover:text-brand-main">プライバシーポリシー</a>
+                <a href="#" class="hover:text-brand-main">お問い合わせ</a>
+            </div>
+            <p class="mt-6 md:mt-0">&copy; 2024 GEM LUCK Jewelry & Stationery. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
